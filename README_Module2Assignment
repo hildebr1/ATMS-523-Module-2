@@ -1,0 +1,16 @@
+The python notebook Module 2 Assignment completes the following tasks: 
+
+- Uses the precipitation output of ERA-5 to compute a time series of daily precipitation at a given point near NYC, 
+using a box of 5 x 5 deg lat-lon values, for a 15-year period (2020 - 2015). 
+
+- Determines the 95% values of daily precipitation within this 5x5 grid.  
+
+- Plots a cumulative distribution function of all daily precipitation values and illustrate the 95% value of daily precipitation in millimeters.
+
+- Creates a list of dates included in the 95th quantile.
+
+- Creates a map of the composite mean precipitation on the 95% days identified over 20 x 20 deg lat-lon values
+
+- Creates a map of the anomaly of precipitation on the 95% days from the 1990-2020 climatology mean.
+
+- Data was obtained from ARCO (analysis-ready and cloud optimized) ERA5 dataset via google research GitHub link https://github.com/google-research/arco-era5
